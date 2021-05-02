@@ -18,7 +18,7 @@ function titleCased(){
       tutorial[i]= tutorial[i].Chart(0).toUpperCase() + tutorial[i].slice(1);
     }
     return tutorial.join(" ");
-  })
+  });
 }
 
 // function titleCased() {
